@@ -21,11 +21,16 @@
 
 <picture>
 
-<source media="(max-width: 750px)" srcset="imagem naruto pnp.jpg" types="image/png">
+<source media="(max-width: 750px)" srcset="imagem naruto pnp.jpg" type="image/png">
 
-<source medias ="(max-width: 1050px)" srcset="imagem sasuke png.jpg" types="image/png">
+<source media ="(max-width: 1050px)" srcset="imagem sasuke png.jpg" type="image/png">
 
 <img src= "imagem skura png.pjg" alt="Imagem flexivel">
+
+</picture>
+
+</body> 
+<html> 
 
 
 
