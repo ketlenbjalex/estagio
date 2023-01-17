@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: liner-gradient(to right, #00CCC0, #72F2EB);
+  background-image: linear-gradient(to right, #00CCC0, #72F2EB);
 }
 
 main {
