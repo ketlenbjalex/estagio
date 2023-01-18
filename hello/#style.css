@@ -29,5 +29,14 @@ h1#principal {
 
     color: rgb(51, 77, 49);
  }
- 
+ .basico{
+color: greenyellow;
+font-weight: bold;
+ }
+.intermediari{
+color: yellow;
+}
+.avançado{
+color: red;
+}
 
