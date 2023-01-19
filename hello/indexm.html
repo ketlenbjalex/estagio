@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br>
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pseudo-classes</title>
-
-<style>
-div{
-  display: inline-block;
-  background-color: aquamarine;
-  border: 1xp solid black;
-  text-align: center;
-  height: 200px;
-  width: 200pc;
-
+  <title>links</title>
+  <style>
+    body{
+font-family: Arial, Helvetica, sans-serif;
+    }
+  a {
+color: red;
+ text-decoration: none ;
+ font-weight: bold;
 }
-     div:hover{
-      background-color: yellow;
-     }
-</style>
 
-</head>
-
+  a:visited{
+    color: darkred;
+  }
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+ a:active{
+  color: yellow;
+ }
+ a::after{
+  content: '[link]';
+  text-decoration: none;
+  font-weight: normal;
+  color: red;
+ }
+ </style>
+  </head>
 <body>
-<div id="d1">01</div>
-<div id="02">02</div>
-<div id="03">03</div>
 
+  <h1>personalizando links </h1>
+  <ul>
+    <li><a href="https://gustavoguanabara.github" target="-blank"> repositorio github</li>
+    <li><a href="https://youtube.com/cursoemvideo/"> canal do youtube</a></li>
+<li><a href="https://www.cursoemvideo.com"> sitedocursoemvido</a></li>
+  </ul>
 </body>
-
 </html>
