@@ -4,50 +4,87 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>modelo de caixas</title>
-  <style>
-    h1{ /* box-level */
-      background-color: purple;
-      height: 200px;
-      width: 300px;
-      border-width: 10px;
-      border-style: solid;
-      border-color: dark blue;
-
-
-
-      
-      padding-top:  10px; ;
-      padding-right: 10px; ;
-      padding-bottom: 10px;
-      padding-left: 10px;
-      margin-top: 10px;
-      margin-right: 10px;
-      margin-bottom: 40px;
-      margin-left: 10px;
-      outline: 5px;
-      outline-style: dashed;
-      outline-color: salmon;
-  
-  
+   <title>grouping tags</title>
+   <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aquamarine;
+        margin: 0px;
+    }
+    header{
+               width: 600px;
+               background-color: white;
+               padding: 10px;
+               margin: 10px;
     }
 
-    a{   /* inline*/  
-      border-width: 10px;
-      border-style: solid;
-      border-color: red;
-
-      padding-top:  10px; ;
-      padding-right: 10px; ;
-      padding-bottom: 10px;
-      padding-left: 10px;
-
-
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
     }
-  </style>
+
+    article{
+        background-color: antiquewhite;
+    }
+
+    article > aside{   
+       background-color: antiquewhite;
+       padding: 5px;
+     }
+    
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+</style>
 </head>
 <body>
-  <h1>exemplo de caixa box-level </h1>
-  <p>paragrafos tambem são exemplos de de caixa box-level, mas os <a href="#">links são exemplos de caixas inline-level </a>. vamos ver como tudo isso funciona .</p>
-</body>
-</html>
+    <header>
+    <h1>meu site </h1>
+    <nav>
+
+        <a href="#">Link</a>
+        
+        <a href="#">Link</a>
+        
+        <a href="#">Link</a>
+        
+        <a href="#"
+        
+        ="#">Link</a>
+        
+        <a href="#">Link</a>
+        
+        </nav>
+        
+        </header>
+        
+        <main>
+        
+        
+        <section id="assuntos">
+        
+        </section>
+        
+        <section id="noticias">
+        
+        <article>
+        
+        <h2>Notícia sobre o Brasil</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, minima sequi sapiente, 
+            id nobis deleniti eligendi quaerat facilis animi eius vitae deserunt accusamus temporibus. Similique numquam fugiat a ea
+        
+        veniam.</p>
+        
+        <aside>
+        
+        <p>Artigo escrito por José da Silva</p>
+        
+        </aside>
+        
+        <article>
+   
