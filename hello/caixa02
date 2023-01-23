@@ -1,0 +1,90 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>grouping tags</title>
+   <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aquamarine;
+        margin: 0px;
+    }
+    header{
+               width: 600px;
+               background-color: white;
+               padding: 10px;
+               margin: 10px;
+    }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    article{
+        background-color: antiquewhite;
+    }
+
+    article > aside{   
+       background-color: antiquewhite;
+       padding: 5px;
+     }
+    
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+    <h1>meu site </h1>
+    <nav>
+
+        <a href="#">Link</a>
+        
+        <a href="#">Link</a>
+        
+        <a href="#">Link</a>
+        
+        <a href="#"
+        
+        ="#">Link</a>
+        
+        <a href="#">Link</a>
+        
+        </nav>
+        
+        </header>
+        
+        <main>
+        
+        
+        <section id="assuntos">
+        
+        </section>
+        
+        <section id="noticias">
+        
+        <article>
+        
+        <h2>Notícia sobre o Brasil</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, minima sequi sapiente, 
+            id nobis deleniti eligendi quaerat facilis animi eius vitae deserunt accusamus temporibus. Similique numquam fugiat a ea
+        
+        veniam.</p>
+        
+        <aside>
+        
+        <p>Artigo escrito por José da Silva</p>
+        
+        </aside>
+        
+        <article>
+   
