@@ -1,34 +1,60 @@
-@charset "utf-8";
+<!DOCTYPE html>
 
-* {
-  font-family: arial, helvetica, sans-serif;
+<html lang="pt-br">
 
-}
+<head>
 
-body {
-  background-image: linear-gradient(to right, #00CCC0, #72F2EB);
-}
+<meta charset="UTF-8"> 5 <meta name="viewport"
 
-main {
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 10xp 10xp 10xp black;
-  width: 600xp;
-  padding: 10xp;
-  margin: auto;
+content="width=device-width, initial-scale=1.0">
 
-}
 
-h1 {
-  color: #747F7F;
-  text-align: center;
-  text-shadow: 1px 1xp 1xp black;
-}
 
-h2 {
-  color: #FF4858
-}
+<title>Como surgiu o mascote do Android?</ title>
 
-p {
-  text-align: justify;
-}
+
+<link rel="shortcut icon" href="imagens/
+
+favicon.ico" type="image/x-icon"> <link rel="stylesheet" href="estilo/style.css">
+
+
+ </head>
+
+<body>
+
+<header>
+<h1>Curiosidades de Tecnologia</h1> <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+
+
+</header>
+
+image
+
+roid.html Donsivo.html
+
+
+<nav>
+
+
+<a href="#">Home</a>
+
+<a href="#">Notícias</a> <a href="#">Curiosidades</a>
+
+<a href="#">Fale Conosco</a>
+
+</nav>
+
+main
+
+<article>
+
+<h1>
+
+História do Mascote do Android </h1>
+
+<p>
+
+Provavelmente você sabe que o sistema operacional <strong> Android </strong> , mantido pelo <strong>Google</strong> 
+é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tam un nome e una
+ história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+</P>
