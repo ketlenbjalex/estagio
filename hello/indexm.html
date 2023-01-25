@@ -1,62 +1,39 @@
-<meta name="viewport" content="width=\,
-
-initial-scale=1.0"> <title>Teste de Responsividade</title>
-
-
-<style>
-
-body {
-
-  background-color: gray;
-}
-
-
-main {
-
-
-background-color:
-
-white;
-
-padding: 20px; border-radius: 10px;
-
-min-width: 280px;
-
-
-max-width: 800px;
-
-margin: auto;
-
-}
-
-img {
-
-width: 100%;
-}
-
-</style>
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+        body{
+            background-image: url('imagens/wallpaper001.png');
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: gray;
+            width: 300px;
+            height: 300px;
+        }
+    div#q1{
+                 background-color: skyblue;
+    }
+        div#q2{
+                  background-image: linear-gradient(to bottom,yellow , red);
+        }
+        div#q3{
+                  background-image:url('imagens/pattern001.png') ;
+        }
+    </style>
 </head>
-
 <body>
-
-<main>
-
-<h1>Testando Responsividade</h1>
-
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-   Nobis aut magnam praesentium sequi eos quasi fugiat corporis, assumenda soluta sed nostrum molestias. 
-   Repellendus sed inventore laudantium est assumenda ipsam dolor. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-   impedit ipsa unde perferendis tempora. Ducimus, esse? Eligendi eos maxime quis, optio ipsum nesciunt debitis ut blanditiis laudantium sunt, 
-   tenetur similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-   Excepturi saepe earum reprehenderit tempore ratione deleniti doloribus labore officiis, assumenda delectus ipsam, fugiat,
-    voluptatem quisquam corporis mollitia enim qui quos possimus!</p>
-
-<picture> <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg" <img src="imagens/irina-blok.jpg" alt="Irina Blok" ></picture>
-
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque voluptas architecto, vitae inventore iure a.
-   Ipsa voluptatum, perferendis optio quidem rem molestiae nam temporibus neque tempora, esse magni soluta voluptate.</p>
-   <main>
-
-   </body>
-   </html>
+    <div classe="quadrado" id="q1">
+        <div>
+            <div classe="quadrado" id="q2"> 
+            </div>
+        </div classe="quadrado"  id="q3">
+    </div>
+</body>
+</html>
