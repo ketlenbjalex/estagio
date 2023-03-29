@@ -1,0 +1,49 @@
+@charset "UTF-8";
+{
+margin: 0px;
+
+padding: 0px; 
+font-family: Arial, Helvetica, sans-serif;
+  }
+
+html, body; {   
+
+height: 100vh;
+ background-color: black;
+width: 100vw
+    }
+
+
+ body {   
+background:url('../imagens/fundo-made.jpg');
+ }
+
+
+background: url.
+
+main 
+{  
+
+position: relative; 21
+ height: 100vh;
+
+
+}
+
+
+
+section telefone (
+
+
+
+top: set;
+
+left: 50%;
+
+
+
+height: 627px;
+
+width: 311px;
+
+ background: url(../Imagens/frame-iphone.png") no-repeat;
