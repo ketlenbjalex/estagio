@@ -1,48 +1,33 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
-<html lang="pt-br">
-
-<head>
-
+<html lang="pt-br"> <head> 3
 
 <meta charset="UTF-8">
 
- <meta name="viewport" content="width=device-width,
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-initial-scale=1.0">
+<title>Formulário</title>
 
-<link rel="shortcut icon" href="favicon.ico" type="image/
+<style>
 
-x-icon">
+{ font-family: Arial, Helvetica, sans-serif;
 
-<link rel="stylesheet" href="estilos/style.css">
-
- <title>Projeto Redes Sociais</title>
-
+} </style>
 
 </head>
 
-<body>
+ <body>
 
+<form>
 
-<main>
+<p>Nome: <input type="text" name="nome" id="nome"></p> <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"> </p>
 
+<p><input type="submit" value="Enviar"></p>
 
-<section id="telefone">
+</form>
 
+<h1>Meu primeiro formulário</h1>
 
-</section>
-
-<section id="redes-sociais">
-
-
-</section>
-
-
-</main>
-
-,
-
-</body>
+ </body>
 
 </html>
