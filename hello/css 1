@@ -1,9 +1,19 @@
-@charset "UTF-8";
+<DOCTYPE html>
 
-/* Aparelho deitado (landscape) "/
+<html lang="pt-br">
 
-I
+<head>
 
-body
+<meta charset="UTF-8">
 
-background-image: url(../imagens/cev-landscape.jpg); background-position: left bottom;
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+<title>Media Query</title>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
