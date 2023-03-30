@@ -1,56 +1,52 @@
-<!DOCTYPE html>
- <html lang="pt-br">
+<!OOCTYPE html)
 
+<html lang="pt-be"> 
 <head>
 
-<meta charset="UTF-8">
+<meta charset="UTF-8"> <meta name="viewport" contents"width-device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Formulário</title>
+<title>Formulário</title>
 
 </head>
 
 <body>
 
-<h1>Exemplo de Formulário</h1>
-
-<form action="cadastro.php" method=" "get" autocomplete="on">
+<h1>Exemplo de Formulário</h1> <form action"cadastro.php" method="get" autocomplete="on"
 
 <fieldset>
 
-<legend>Dados pessoais/legend>
+<legend>Sexo</legend>
 
-<p>
+<input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label><br>
 
-<label for="inome">Nome</label> <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
+<input type="radio" name="sexo" id="isxfem" checked> <label
 
-</p>
+fore"isxfem">Feminino</label>
 
-<p>
+</fieldset> <fieldset>
 
-<label for="iemail">E-mail</label>
+<legend>Esportes favoritos</legend> <input type="checkbox" names "esbas" ids "iesbas" checked> <label
 
-<input type="email" name="email" id="email"
+fors "iesbas">Basquete</label><br> <input type="checkbox" name="esfut" id="iesfut" checked> <label
 
-autocomplete="email" required>
+for="esfut">Futebol</label><br>
 
-</p>
+<input type="checkbox" name="esnat" id="lesnat"> <label
 
-<p>
+for "iesnat">Natação</label><br>
 
-<label for="itel">Telefone</label>
+<input type="checkbox" name="esten" id="iesten"> <label
 
-<input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4, 5}-\d{4}$" required placeholder="(xx)
+for="lesten">Tenis</label><br>
 
-</p>
+/fieldset>
 
-</fieldset>
+<input type="submit" value="Enviar"s <input type="reset" value="Limpar">
 
-<!-- Estudar mais sobre RegEx -->
+</P>
 
-<p>
+</form>
 
-<input type="submit" value="Enviar"> <input type="reset" value="Limpar">
- </P>
-</Form>
-<Body>
+</Body>
+
 </Html>
