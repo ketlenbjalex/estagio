@@ -1,4 +1,4 @@
-<!DOCTYPE html>.
+<!DOCTYPE html>
 
 <html lang="pt-br">
 
@@ -6,43 +6,38 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Login</title>
 
-<title>Media Query</title>
+<link rel="stylesheet" href="estilos/style.css">
 
 </head>
 
 <body>
 
-header
-
-<h1>Meu Site</h1>
-
-<menu>
-
-<li><a href="#">Opção 1</a></li>
-
-<li><a href="#">Opção 2</a></li>
-
-<li><a href="#">Opção 3</a></li> <li><a href="#">Opção 4</a></li>
-
-<li><a href="">Opção 5</a></li> </ul>
-
-/menu>
-
-</header>
-
 <main>
 
-<article>
+<section id="login">
 
-<h2>Testando Media Querie/2
+<div id="imagem">
 
-</article>
+Foto
+
+</div>
+
+<div id="formulario">
+
+<h1>Login</h1>
+
+<p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p> <form action="login.php" method="post">
+
+</form>
+
+</div>
+
+</section>
 
 </main>
 
 </body>
 
 </html>
-
