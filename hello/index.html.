@@ -1,61 +1,47 @@
-<1DOCTYPE html>
-
-<html lang="pt-br">
-
+<!DOCTYPEhtml>
+<html lang="pt-br"
 <head>
 
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Formulário</title>
 
-</head>
-
- <body>
+</head> <body>
 
 <h1>Exemplo de Formulário</h1>
 
-<form action="cadastro.php" method="post" autocomplete="on">
+<form action="cadastro.php" method="get" autocomplete="on">
 
-<label for="iest">Estado: </label> <select name="estado" id="iest">
+<p>
 
-<option value="" selected Escolha ---</option>
+<label for="iano">Em que ano você nasceu? </label> <input type="number" name="ano" id="iano" min="1900" max="2020" oninput="calcidade()">
 
-<optgroup label "Região Sudeste">
+</p>
 
-<option value="MG">Minas Gerais</option> <option value="R3" Rio de Janeiro</option>
+<p>
 
-<option value="sp">São Paulo</option>
+<label for="iidade">Sua idade é: </label> <output id="iidade">0</output>
 
-</optgroup>
+<p>
 
-<optgroup label="Região Nordeste">
+<input type="submit" value="Enviar"> <input type="reset" value="Limpar">
 
-<option values "MA">Maranhão</option> <option value="PE">Pernambuco</option>
 
-<option values "RN" Rio Grande do Norte</option>
 
-</optgroup/select;>
-
-<label for="iprof">Profissão: </label>
-
-<input type="text" name="prof" id="iprof" liste "Istprof"> (datalist ide"lstprof">
-
-<option>Administrador</option>
-
-<option Contabilista</option>
-
-<option>Desenvolvedor</option> <option>Professor</option>
-
-</datalist>
-
-<label fore"img">Mensagem: </label><br> Etextarea name="msg" id="img" cols="30" rows="10" placeholder"
-
-</textarea>
-
-I
-<input type="submit" value="Enviar"> Input type="reset" value="Limpar">
+</p>
 
 </form>
 
+<script>
+
+function calcIdade() { let atual = new Date().getFullYear()
+
+iidade.innerHTML = Number(atual) - Number(iano.value)
+
+}
+
+</script>
+
 </body>
+
 </html>
