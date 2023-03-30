@@ -1,44 +1,61 @@
-<!DOCTYPE html>
+<1DOCTYPE html>
 
- <html lang="pt-br";>
+<html lang="pt-br">
 
- <head>
+<head>
 
 <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1,0″ ›
-
-<title>Formulário</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Formulário</title>
 
 </head>
 
-<body> <h1>Exemplo de Formulário</h1>
+ <body>
 
-<form action="cadastro.php" method="POST" autocomplete="on"
+<h1>Exemplo de Formulário</h1>
 
-<label for="icor">Cor: </label>
+<form action="cadastro.php" method="post" autocomplete="on">
 
-<input type="color" name="cor" id="icor" value="#001100">
+<label for="iest">Estado: </label> <select name="estado" id="iest">
 
-</p>
+<option value="" selected Escolha ---</option>
 
-<label for="inivel" Nivel de Satisfação: </label> <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+<optgroup label "Região Sudeste">
 
-</p>
+<option value="MG">Minas Gerais</option> <option value="R3" Rio de Janeiro</option>
 
-<<label for="ifoto" Foto do perfil:</label> <input type="file" name="foto" id="ifoto">
+<option value="sp">São Paulo</option>
 
-</p>
+</optgroup>
 
-<input type="submit" value="Enviar">
+<optgroup label="Região Nordeste">
 
-<input type="reset" value="Limpar">
+<option values "MA">Maranhão</option> <option value="PE">Pernambuco</option>
+
+<option values "RN" Rio Grande do Norte</option>
+
+</optgroup/select;>
+
+<label for="iprof">Profissão: </label>
+
+<input type="text" name="prof" id="iprof" liste "Istprof"> (datalist ide"lstprof">
+
+<option>Administrador</option>
+
+<option Contabilista</option>
+
+<option>Desenvolvedor</option> <option>Professor</option>
+
+</datalist>
+
+<label fore"img">Mensagem: </label><br> Etextarea name="msg" id="img" cols="30" rows="10" placeholder"
+
+</textarea>
+
+I
+<input type="submit" value="Enviar"> Input type="reset" value="Limpar">
 
 </form>
 
-</body> 
- </html>
-
-
-
-
+</body>
+</html>
