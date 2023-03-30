@@ -1,52 +1,44 @@
-<!OOCTYPE html)
+<!DOCTYPE html>
 
-<html lang="pt-be"> 
-<head>
+ <html lang="pt-br";>
 
-<meta charset="UTF-8"> <meta name="viewport" contents"width-device-width, initial-scale=1.0">
+ <head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1,0″ ›
 
 <title>Formulário</title>
 
 </head>
 
-<body>
+<body> <h1>Exemplo de Formulário</h1>
 
-<h1>Exemplo de Formulário</h1> <form action"cadastro.php" method="get" autocomplete="on"
+<form action="cadastro.php" method="POST" autocomplete="on"
 
-<fieldset>
+<label for="icor">Cor: </label>
 
-<legend>Sexo</legend>
+<input type="color" name="cor" id="icor" value="#001100">
 
-<input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label><br>
+</p>
 
-<input type="radio" name="sexo" id="isxfem" checked> <label
+<label for="inivel" Nivel de Satisfação: </label> <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
 
-fore"isxfem">Feminino</label>
+</p>
 
-</fieldset> <fieldset>
+<<label for="ifoto" Foto do perfil:</label> <input type="file" name="foto" id="ifoto">
 
-<legend>Esportes favoritos</legend> <input type="checkbox" names "esbas" ids "iesbas" checked> <label
+</p>
 
-fors "iesbas">Basquete</label><br> <input type="checkbox" name="esfut" id="iesfut" checked> <label
+<input type="submit" value="Enviar">
 
-for="esfut">Futebol</label><br>
-
-<input type="checkbox" name="esnat" id="lesnat"> <label
-
-for "iesnat">Natação</label><br>
-
-<input type="checkbox" name="esten" id="iesten"> <label
-
-for="lesten">Tenis</label><br>
-
-/fieldset>
-
-<input type="submit" value="Enviar"s <input type="reset" value="Limpar">
-
-</P>
+<input type="reset" value="Limpar">
 
 </form>
 
-</Body>
+</body> 
+ </html>
 
-</Html>
+
+
+
