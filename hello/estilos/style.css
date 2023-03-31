@@ -43,11 +43,11 @@ section#login {
    border-radius: 20xp;
 }
 
-section login>div#imagem {
+section#login > div#imagem {
 
    display: block;
 
-   background: #5f2c82 url("../imagens/metal.jpg") no-repeat;
+   background: #5f2c82 url("../hello/imagens/metal.jpg") no-repeat;
    background-position: left bottom;
 
    background-size: cover;
