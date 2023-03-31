@@ -1,43 +1,31 @@
-<!DOCTYPE html>
+charset "UTF-8";
 
-<html lang="pt-br">
+/* Typical Device Breakpoints
 
-<head>
+Pequenas telas: até 600px
 
-<meta charset="UTF-8">
+Celular: de 600px até 768px Tablet: 768px até 992px Desktop: 992px até 1200px Grandes telas: acima de 1200px
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Login</title>
+*/
 
-<link rel="stylesheet" href="estilos/style.css">
+@media screen and (min-width: 768px) and (max-width: 992px) { section#login {
 
-</head>
+width: 90vw;
 
-<body>
+}
 
-<main>
+section#login > div#imagem {
 
-<section id="login">
+float: left; height: 100%;
 
-<div id="imagem">
+width: 30%;
 
-Foto
+}
 
-</div>
+section#login > div#formulario {   
 
-<div id="formulario">
+float: right;
 
-<h1>Login</h1>
+width: 70%;
 
-<p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p> <form action="login.php" method="post">
-
-</form>
-
-</div>
-
-</section>
-
-</main>
-
-</body>
-
-</html>
+}
