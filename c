@@ -12,6 +12,9 @@ Tablet: 768px até 992px
 */
 @media screen and (min-width: 768px) and (max-width: 992px) { 
     
+    body{
+        background-image: linear-gradient(to top ,#49a09d,#5f2c82);
+    }
     section#login {
 
     width: 80vw;
@@ -37,7 +40,10 @@ Tablet: 768px até 992px
     }
     
     @media screen and (min-width: 992px) { 
-        
+        body{
+            background-image: linear-gradient(to top ,#49a09d,#5f2c82);
+    
+        }
         section#login {
     
     width: 950px;
