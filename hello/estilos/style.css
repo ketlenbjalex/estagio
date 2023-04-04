@@ -2,7 +2,7 @@
 
 /**Paleta de cores
 
-Verde: #49a09d
+blue
 
 Lilás: #5f2c82*/
 * {
@@ -14,7 +14,7 @@ Lilás: #5f2c82*/
 
 body,
 html {
-   background-color: #5f2c82;
+   background-color: #a147dd;
    height: 100vh;
    height: 100vh;
    width: 100vw;
@@ -37,7 +37,7 @@ section#login {
 
    transition: midht .3s, height .3s;
    transition-timing-function: ease;
-   background-color: #49a09d;
+   background-color: #acfffc;
    width: 250px;
    height: 500px;
    border-radius: 20xp;
@@ -47,7 +47,7 @@ section#login > div#imagem {
 
    display: block;
 
-   background: #5f2c82 url("../imagens/metal.jpg") no-repeat;
+   background: #5f2c82 url("../imagens/https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fdragonfly&psig=AOvVaw3JAPxemiEfQeSWUigCJ46z&ust=1680715243832000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOiv46rekP4CFQAAAAAdAAAAABAm") no-repeat;
    background-position: left bottom;
 
    background-size: cover;
